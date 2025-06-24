@@ -1,0 +1,78 @@
+body {
+  background: #f4f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 440px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(60, 80, 120, 0.08);
+}
+
+h2 {
+  color: #234e70;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+th, td {
+  padding: 8px 6px;
+  text-align: left;
+}
+
+th {
+  background-color: #eaf0fa;
+  color: #234e70;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+.button {
+  background: #234e70;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .2s;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+.button.secondary {
+  background: #8fa3bf;
+}
+
+.input-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 6px 8px;
+  border: 1px solid #bfc9d9;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #f4f7fa;
+  color: #234e70;
+  outline: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #234e70;
+}
